@@ -1,0 +1,81 @@
+body{
+    background: url("../img/fondo.png") 100% no-repeat fixed;
+    font-size: 1em;
+}
+
+.auto{
+    position: relative;
+    right: 0;
+    margin: 11% 4% 0 42%;
+    width: 90%;
+}
+
+.spotify{
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 2% 4% 0 0;
+    height: 3%;
+}
+
+.bmw{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 0 4% 3% 0;
+    width: 4%;
+}
+
+.mayusculas{
+    text-transform: uppercase;
+}
+
+.azul{
+    color: #001162;
+}
+
+.index{
+    margin-top: 12%;
+    margin-left: 10%;
+    margin-right: 25%;
+}
+
+.boton{
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    text-decoration: none;
+    position: fixed;
+    margin-top: -9%;
+    padding: 0.8% 3% 0.8% 3%;
+    letter-spacing: 4px;
+}
+
+.boton-paso{
+    border: 0 solid transparent;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    text-decoration: none;
+    position: fixed;
+    padding: 0.8% 3% 0.8% 3%;
+    letter-spacing: 4px;
+}
+
+.titulo{
+    position: fixed;
+    font-size: 1.8em;
+    width: 38%;
+    margin-top: -8%;
+}
+
+.subtitulo{
+    position: fixed;
+    margin-top: 17%;
+    font-size: 1em;
+    width: 26%;
+}
+
+button{
+    cursor: pointer;
+}

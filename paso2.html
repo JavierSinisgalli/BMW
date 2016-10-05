@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/fonts/fonts.css">
+    <link rel="stylesheet" href="css/selectric.css">
+    <link rel="stylesheet" media="(min-width: 1250px)" href="css/tema-paso-1200.css">
+    <link rel="stylesheet" media="(min-width: 900px) and (max-width: 1249px)" href="css/tema-paso-900.css" />
+    <link rel="stylesheet" media="(min-width: 640px) and (max-width: 899px)" href="css/tema-paso-640.css" />
+    <link rel="stylesheet" media="(max-width: 639px)" href="css/tema-paso-480.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.selectric.min.js"></script>
+    <script>
+        $(function() {
+            $('select').selectric();
+        });
+    </script>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <title>BMW - Paso 2</title>
+</head>
+<body>
+<header>
+    <img src="img/spotify.png" alt="spotify" class="spotify">
+</header>
+<section>
+    <img src="img/logo.png" alt="bmw" class="bmw-paso">
+    <span class="titulo azul abadibold">2.</span>
+    <span class="subtitulo abadilight">Escoge el modelo de tu Sedan</span>
+    <div class="div-ciudad">
+        <img src="img/ciudad.png" alt="ciudad">
+        <p class="abadibold mayusculas">ciudad</p>
+    </div>
+    <div class="select abadibold">
+        <select name="auto">
+            <option value="serie3">BMW Serie 3 Sedan 2016</option>
+            <option value="serie5">BMW Serie 5 Sedán 2016</option>
+            <option value="serie7">BMW Serie 7 Sedan 2016</option>
+            <option value="m3">BMW M3 Sedán 2016</option>
+            <option value="m5">BMW M5 Sedán 2016</option>
+        </select>
+    </div>
+    <a class="abadilight mayusculas boton-paso" href="paso3.html">siguiente</a>
+</section>
+</body>
+</html>

@@ -1,0 +1,167 @@
+body{
+    background: url("../img/fondo-paso.png") 50% no-repeat fixed;
+    overflow-y: hidden;
+    font-size: 1em;
+}
+
+.auto{
+    position: relative;
+    right: 0;
+    margin: 11% 4% 0 42%;
+    width: 90%;
+}
+
+.spotify{
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 2% 4% 0 0;
+    height: 3%;
+}
+
+.bmw-paso{
+    position: fixed;
+    margin-left: 40.7%;
+    height: 7%;
+    margin-top: 5%;
+}
+
+.mayusculas{
+    text-transform: uppercase;
+}
+
+.azul{
+    color: #001162;
+}
+
+.index{
+    margin-top: 12%;
+    margin-left: 10%;
+    margin-right: 25%;
+}
+
+.boton-paso{
+    border: 0 solid transparent;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    margin: 3% 0 0 33%;
+    text-decoration: none;
+    position: fixed;
+    padding: 0.8% 3% 0.8% 3%;
+    letter-spacing: 4px;
+}
+
+.titulo{
+    position: fixed;
+    font-size: 2em;
+    margin: 16% 0 0 44%;
+}
+
+.subtitulo{
+    position: fixed;
+    margin: 25% 0 0 30%;
+    width: 35%;
+    text-align: center;
+}
+
+.subtitulo3{
+    margin: 23% 0 0 28%;
+}
+
+.subtitulo4{
+    margin: 16% 0 0 36%;
+    width: 20%;
+}
+
+button, a, input{
+    cursor: pointer;
+}
+
+#tamanio-lista{
+    margin-left: 9%;
+    text-align: center;
+    padding-top: 30%;
+}
+
+li{
+    margin-right: 10%;
+    display: inline-block;
+}
+
+li img:first-child{
+    height: 68px;
+}
+
+li p{
+    font-size: 1.5em;
+}
+
+#tilde{
+    height: 16px;
+}
+
+.div-ciudad{
+    margin-left: -20%;
+    text-align: center;
+    padding-top: 31%;
+}
+
+.div-ciudad p{
+    font-size: 2em;
+    position: fixed;
+    margin-left: 66%;
+    margin-top: -7%;
+}
+
+.div-ciudad img{
+    height: 54px;
+}
+
+.select{
+    width: 29%;
+    margin-left: 31%;
+    margin-top: 3%;
+}
+
+.paso3 img{
+    margin-left: 9.3%;
+}
+
+.paso3 p{
+    font-size: 2em;
+    position: fixed;
+    margin-left: 55%;
+    margin-top: -10%;
+}
+
+.paso3 form{
+    text-align: center;
+    margin-top: 1%;
+    margin-left: -6%;
+}
+
+.paso3 form p{
+    font-size: 1em;
+    margin-top: 7px;
+    margin-left: 0;
+    position: relative;
+}
+
+.paso3 .boton-paso{
+    margin: 4% 0 0 -17%;
+}
+
+input{
+    border-width:0;
+    padding: 1% 0 0 9%;
+}
+
+input:focus{
+    outline:0;
+}
+
+iframe{
+    margin-left: 14%;
+    margin-top: 2%;
+}

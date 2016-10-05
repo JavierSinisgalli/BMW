@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'AbadiMT-CondensedExtraBold';
+    src: url('original_AbadiMTCondensedExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('original_AbadiMTCondensedExtraBold.woff') format('woff'),
+    url('original_AbadiMTCondensedExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AbadiMT-CondensedLight';
+    src: url('original_AbadiMTCondensedLight.eot?#iefix') format('embedded-opentype'),
+    url('original_AbadiMTCondensedLight.woff') format('woff'),
+    url('original_AbadiMTCondensedLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AbadiMT-Condensed';
+    src: url('original_AbadiMTCondensed.eot?#iefix') format('embedded-opentype'),
+    url('original_AbadiMTCondensed.woff') format('woff'),
+    url('original_AbadiMTCondensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.abadibold{
+    font-family: 'AbadiMT-CondensedExtraBold';
+}
+
+.abadilight{
+    font-family: 'AbadiMT-CondensedLight';
+}
+
+.abadi{
+    font-family: 'AbadiMT-Condensed';
+}
